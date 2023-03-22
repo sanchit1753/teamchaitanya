@@ -303,7 +303,12 @@ section:nth-child(2n+1) {
 	color: white;
 }
 
-.my-details-icon {}
+.my-details-icon {
+	height: 1rem;
+	width: 1rem;
+	vertical-align: bottom;
+	margin-right: 0.5rem;
+}
 
 #contact-form input,
 textarea {
@@ -331,8 +336,25 @@ textarea {
 	font-family: sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.8em 0.8rem 0.78em;
+	text-transform: uppercase;
 }
 
+#contact-form button:hover{
+	background: white;
+	color: #13386fe0;
+}
+
+#contact .social-icons li a i{
+	font-size: 1.2rem;
+	margin: 40px 10px 10px;
+	padding: 10px 14px 20px 10px;
+}
+
+input:focus,select:focus,textarea:focus,button:focus{
+	outline: none;
+}
 
 
 
