@@ -1,0 +1,37 @@
+[33mcommit e84be571f1d245fe381dd301123e1b7818a633e8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31mcpanel/master[m[33m)[m
+Author: ghackk <gyaneshkumar6520@gmail.com>
+Date:   Wed Mar 22 21:06:20 2023 +0530
+
+    Checking cpanel push
+
+[1mdiff --git a/.cpanel.yml b/.cpanel.yml[m
+[1mindex 4ea9cef..f30a76a 100644[m
+[1m--- a/.cpanel.yml[m
+[1m+++ b/.cpanel.yml[m
+[36m@@ -2,4 +2,11 @@[m
+ deployment:[m
+   tasks:[m
+     - export DEPLOYPATH=/home/teamcfuf/public_html/[m
+[31m-    - /bin/cp -R * $DEPLOYPATH[m
+\ No newline at end of file[m
+[32m+[m[32m    - /bin/cp -R * $DEPLOYPATH[m
+[32m+[m[32m    - /bin/cp -R .vscode $DEPLOYPATH[m
+[32m+[m[32m    - /bin/cp -R assets $DEPLOYPATH[m
+[32m+[m[32m    - /bin/cp -R css $DEPLOYPATH[m
+[32m+[m[32m    - /bin/cp -R fonts $DEPLOYPATH[m
+[32m+[m[32m    - /bin/cp -R img $DEPLOYPATH[m
+[32m+[m[32m    - /bin/cp -R js $DEPLOYPATH[m
+[32m+[m[32m    /bin/cp index.html $DEPLOYPATH[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex e1f3189..add27e0 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -11,7 +11,7 @@[m
+     <header id="background-style">[m
+         <nav>[m
+             <ul class="horizontal-list nav-menu text-center" id="header-list">[m
+[31m-                <li><a href="#">[m
+[32m+[m[32m                <li><a href="/index.html">[m
+    			Home[m
+          </a>[m
+                 </li>[m
