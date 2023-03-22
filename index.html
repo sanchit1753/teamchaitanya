@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="practice2.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<title>practice2</title>
 </head>
@@ -24,7 +24,7 @@
             </a>
    		</li>
    		<li>
-            <a href="#">
+            <a href="/gallery/gallery_timeline.html">
    			Gallery
             </a>
    		</li>
@@ -85,7 +85,7 @@
    <main>
 	 <section id="about">
 	 <div id="my-image" class="text-center">
-		<img src="teamchaitanya/media/gallery/TC-LOGO3.jpg">
+		<img src="/media/gallery/TC-LOGO3.jpg">
 	 </div>
 
 	 <div id="about-para">
@@ -176,7 +176,7 @@
 
 		 <div id="portfolio-container">
             <div class="portfolio-image-container">
-				<img src="\teamchaitanya\media\gallery\jagganath_baldev_.jpg" alt="Kuch to Gadbad hai">
+				<img src="/media/gallery/jagganath_baldev_.jpg" alt="Kuch to Gadbad hai">
 			<div class="portfolio-details">
 				<p> 
 				Write here basic details about the project. 
@@ -184,7 +184,7 @@
 		   </div>
 			</div>	
 			<div class="portfolio-image-container">
-			<img src="\teamchaitanya\media\gallery\IMG-20221230-WA0014.jpg" alt="Kuch to Gadbad hai">
+			<img src="/media/gallery/IMG-20221230-WA0014.jpg" alt="Kuch to Gadbad hai">
 		    <div class="portfolio-details">
 				<p> 
 				Write here basic details about the project. 
@@ -192,7 +192,7 @@
 		   </div>
 		   </div>	
 			<div class="portfolio-image-container">
-			<img src="\teamchaitanya\media\gallery\IMG-20221230-WA0035.jpg" alt="Kuch to Gadbad hai">
+			<img src="\media\gallery\IMG-20221230-WA0035.jpg" alt="Kuch to Gadbad hai">
 		    <div class="portfolio-details">
 				<p> 
 				Write here basic details about the project. 
@@ -200,7 +200,7 @@
 		   </div>
             </div>
 			<div class="portfolio-image-container">
-			    <img src="teamchaitanya\media\gallery\IMG-20221230-WA0058.jpg" alt="Kuch to Gadbad hai">
+			    <img src="\media\gallery\IMG-20221230-WA0058.jpg" alt="Kuch to Gadbad hai">
 				<div class="portfolio-details">
 					<p> 
 					Write here basic details about the project. 
@@ -208,7 +208,8 @@
 			   </div>
 			</div>
 			<div class="portfolio-image-container">	
-				<img src="\teamchaitanya\media\gallery\IMG20221224110909.jpg" alt="Kuch to Gadbad hai">
+				<img src="\media\gallery\IMG20221224110909.jpg" alt="Kuch to Gadbad hai">
+				<!-- <img src="\media\gallery\trial.png" alt="Kuch to Gadbad hai"> -->
 				<div class="portfolio-details">
 					<p> 
 					Write here basic details about the project. 
@@ -216,7 +217,8 @@
 			   </div>
 			</div>
 			<div class="portfolio-image-container">    
-				<img src="\teamchaitanya\media\gallery\punjabibagh.jpg" alt="Kuch to Gadbad hai">
+				<img src="/media/gallery/punjabibagh.jpg" alt="Kuch to Gadbad hai">
+				<!-- <img src="/media/gallery/trial.png" alt="Kuch to Gadbad hai"> -->
 				<div class="portfolio-details">
 					<p> 
 					Write here basic details about the project. 
@@ -245,25 +247,74 @@
 			</span>
 		 </h1>
 
-		 <div >
-			<form id="contact-details">
-			   <div>
-				<input type="text" placeholder="Your Name" required>
-			   </div>
-			<div>
-				<input type="text" placeholder="Your Email" required>
-			<div>   
-				<textarea type="text" placeholder="Message" required>
+		 <div id="contact-container">
+			 <div id="contact-form-container">
+			  <form id="contact-form">
+				<input id="input-name" name="name" type="text" placeholder="Your Name" required>
+				<input id="input-email" name="input-email" type="text" placeholder="Your Email" required>		   
+				<textarea id="input-message" name="input-message" rows="2" cols="40" type="text" placeholder="Message" required>
 					</textarea>
-		    </div> 
-			<button id="">
-				SEND MESSAGE
-			</button>
-			</form>
-			<div>
+			      <button class="sub-btn" type="submit">
+         				 SEND MESSAGE
+			      </button>	  
+			   </form>
+		     </div>
 
+             <div id="my-details-container">
+              
+              <h3> Get In Touch </h3>
+              <p>Team Chaitanya is an International educational college society. We are an independent community of like-minded students and working professionals who analyse the science behind ancient Wisdom and its need in contemporary society. We provide intellectual insight into foregone intelligence and implement those principles in our daily lives.</p>
+
+              <h3> My Address </h3>
+              <div class="my-details-info-container">
+              	<i class="fas fa-map-marker-alt">
+                <span> Delhi, India</span>
+              </div>
+              <div class="my-details-info-container">
+              	<i class="fas fa-mobile-alt"></i>
+                <span>99999999999</span>
+               </div>
+               <div class="my-details-info-container">
+               	<i class="far fa-envelope"></i>
+               	<span>myemail@gmail.com</span>
+               </div>
+              </div>
+         </div>
+
+		 <div>
+			<ul class="horizontal-list social-icons">
+			  <li>
+						 <a href="https://in.linkedin.com/in/team-chaitanya-2846221b1"  target="blank">
+							   <i class="fab fa-linkedin-in"></i>
+						 </a>
+				  </li>
+	  
+				  <li>
+					  <a href="https://www.youtube.com/@teamchaitanya" target="blank">
+						   <i class="fab fa-youtube"></i>
+					  </a>
+					  </li>
+	  
+				  <li>
+					  <a href="https://www.facebook.com/people/Team-Chaitanya/100081360550787/" target="blank">
+						  <i class="fab fa-facebook-f"></i>
+					  </a>
+				  </li>
+	  
+				  <li>
+					  <a href="https://www.instagram.com/team.chaitanya/" target="blank">
+						  <i class="fab fa-instagram"></i>
+					  </a>
+					  </li>
+	  
+			  <li>
+					  <a href="https://web.telegram.org/k/#@teamchaitanya" target="blank">
+						   <i class="fab fa-telegram"></i>
+					  </a>
+				  </li>
+			</ul>
+	  
 			</div>
-		 </div>
 	 </section>
 
    </main>
