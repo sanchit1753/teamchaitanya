@@ -271,7 +271,15 @@ section:nth-child(2n+1){
 #my-details-container{
 	width: 35%;
 	margin-left: 6%;
+} 
+
+ #my-details-container h3{
+	color: white;
+	font-weight: 550;
+	font-size: 1.2rem;
 }
+
+
 
 
 /* Common Margin Classes */
