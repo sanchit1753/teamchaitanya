@@ -307,6 +307,7 @@ section:nth-child(2n+1) {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    transition: 0.8s ease-in-out;
 }
 
 .portfolio-image-container img {
@@ -327,6 +328,8 @@ section:nth-child(2n+1) {
 
 .portfolio-image-container:hover {
     box-shadow: 1px 1px 15px 5px rgb(246, 208, 39);
+    transform: rotate(360deg) translateX(20px) scale(0.90);
+    border-radius: 50%;
 }
 
 .portfolio-image-container:hover .portfolio-details {
