@@ -371,7 +371,7 @@ section:nth-child(2n+1) {
     font-size: 1.2rem;
 }
 
-#contant-form-container {
+#contact-form-container {
     width: 50%;
 }
 
@@ -395,11 +395,12 @@ section:nth-child(2n+1) {
 }
 
 .my-details-icon {
-    height: 1rem;
     width: 1rem;
+    height: 1rem;
     vertical-align: bottom;
     margin-right: 0.5rem;
 }
+
 
 #contact-form input,
 textarea {
@@ -427,7 +428,7 @@ textarea {
     font-weight: 700;
     letter-spacing: 0.046875em;
     line-height: 1;
-    padding: 0.8em 0.8rem 0.78em;
+    padding: 0.8em 0.8em 0.78em;
     text-transform: uppercase;
 }
 
@@ -440,6 +441,7 @@ textarea {
     font-size: 1.2rem;
     margin: 40px 10px 10px;
     padding: 10px 14px 20px 10px;
+
 }
 
 input:focus,
