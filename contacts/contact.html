@@ -1,30 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <h2>How Can we Help?</h2>
-    <ul>
-        <li><a href="#s1">Know more about TC</a></li>
-        <li><a href="#s2">Our Activities</a></li>
-        <li><a href="#s3">Register for upcoming Event</a></li>
-        <li><a href="#s4">Get In Touch</a></li>
-        <li></li>
-    </ul>
-   <h3 id="s1">Know More About Us</h3>
-   <p></p>
-     <h3 id="s2">Our Acitivities</h3>
-     <p>There are many variations of passages of Lorem Ipsum available, 
-        but the majority have suffered alteration in some form, by injected humour,
-         or randomised words which don't look even slightly believable.
-         If you are going to use a passage of Lorem Ipsum,
-          you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
-    <h3 id="s3">Register For Upcoming Event</h3>
-    <h3 id="s4">Fill the form below to join us</h3>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="contactstyle.css">
+	<title>Sign Up</title>
 </head>
 <body>
-    
+    <div class="outer-box">
+    	<div class="inner-box"> 
+    		<header class="signup-header">
+    			<h1>Signup</h1>
+    			<p>It just takes 30 seconds</p>
+    		</header>
+    		<main class="signup-body">
+    			<form action="#">
+    				<p>
+    					<label for="fullname">Full Name</label>
+    					<input type="text" id="fullname" placeholder="Chaitnaya" required>
+    				</p>
+
+    				<p>
+    					<label for="Mobile-No">Mobile No.</label>
+    					<input type="text" id="Mobile-No" placeholder="XXXXXXXX" required>
+    				</p>
+
+    				<p>
+    					<label for="email">Email id.</label>
+    					<input type="email" id="email" placeholder="Chaitnaya@gmail.com" required>
+    				</p>
+
+                     <p>
+    					<label for="college">College</label>
+    					<input type="text" id="college" placeholder="IITB" required>
+    				</p>
+
+    				<p>
+    					<label for="Branch">Branch</label>
+    					<input type="text" id="Branch" placeholder="CSE" required>
+    				</p>
+
+    				<p>
+    					<label for="Year">Year</label>
+    					<input type="text" id="Year" placeholder="Ist" required>
+    				</p>
+
+    				<p>
+    					
+    					<input type="submit" id="submit" value="Submit">
+    				</p>
+    			</form>
+    		</main>
+
+    		<footer class="signup-footer">
+    			<p>Already Registered? <a href="#">Edit</a></p>
+    		</footer>
+    	</div>
+    	<div class="circle c1"></div>
+    	<div class="circle c2"></div>
+    </div>
 </body>
 </html>
